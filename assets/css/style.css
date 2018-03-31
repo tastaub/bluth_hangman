@@ -1,0 +1,44 @@
+body  {
+    background-image: url("../images/bluth.png")
+}
+
+#imageHeader  {
+    height: auto;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+h3  {
+    font-size: 30px;
+}
+
+#instructions  {
+    font-family: 'Bangers', cursive;
+    color: #100000;
+    margin-bottom: 15px;
+}
+
+#game  {
+    color: orangered;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#stats  {
+    font-family: 'Bangers', cursive;
+    color: #100000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#guesses  {
+    font-family: 'Bangers', cursive;
+    color: orangered;
+    text-align: center;
+    background-color: #dddddd;
+    border: solid orangered 3px;
+    height: 60px;
+    border-radius: 8px;
+}
