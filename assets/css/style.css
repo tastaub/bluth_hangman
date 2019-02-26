@@ -1,44 +1,110 @@
-body  {
-    background-image: url("../images/bluth.png")
+html,
+body {
+  height: 100%;
 }
 
-#imageHeader  {
-    height: auto;
-    width: 250px;
-    margin: 0 auto;
-    padding-top: 15px;
+body {
+  background-image: url("../images/bluth.png");
 }
 
-h3  {
-    font-size: 30px;
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #ba1818;
+  color: white;
+  border-bottom: solid 2px white;
 }
 
-#instructions  {
-    font-family: 'Bangers', cursive;
-    color: #100000;
-    margin-bottom: 15px;
+#main-container {
+  height: 400px;
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 
-#game  {
-    color: orangered;
-    font-family: 'Nanum Pen Script', cursive;
-    font-weight: bold;
-    margin-bottom: 15px;
+.char-divs {
+  background-color: #dddddd;
+  border: 1px solid #100000;
+  width: 40px;
+  height: 45px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
 }
 
-#stats  {
-    font-family: 'Bangers', cursive;
-    color: #100000;
-    margin-bottom: 15px;
-    margin-top: 15px;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-#guesses  {
-    font-family: 'Bangers', cursive;
-    color: orangered;
-    text-align: center;
-    background-color: #dddddd;
-    border: solid orangered 3px;
-    height: 60px;
-    border-radius: 8px;
+li {
+  list-style-type: none;
 }
+
+#alphabet-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#game-message {
+  height: 60px;
+  background-color: #e2e2e2;
+}
+
+.letter-used {
+  color: #dddddd;
+}
+
+.letter-box:hover {
+  box-shadow: 5px 10px #888888;
+}
+
+/* #imageHeader {
+  height: auto;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#instructions {
+  font-family: "Bangers", cursive;
+  color: #100000;
+  margin-bottom: 15px;
+}
+
+#game {
+  color: orangered;
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#stats {
+  font-family: "Bangers", cursive;
+  color: #100000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#guesses {
+  font-family: "Bangers", cursive;
+  color: orangered;
+  text-align: center;
+  background-color: #dddddd;
+  border: solid orangered 3px;
+  height: 60px;
+  border-radius: 8px;
+} */
